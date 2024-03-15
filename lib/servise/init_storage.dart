@@ -9,6 +9,7 @@ class IntStorage {
     return directory.path;
   }
 
+
   Future<File> get _localFile async {
     final path = await _localPath;
     return File('$path/counter.txt');
