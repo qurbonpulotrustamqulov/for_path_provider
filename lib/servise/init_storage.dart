@@ -23,6 +23,7 @@ class IntStorage {
     } catch (e) {
       return 0;
     }
+
   }
 
   Future<File> writeCounter(int counter) async {
